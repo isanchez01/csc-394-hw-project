@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'homework.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'localhost',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'Watis#01',
         'HOST': '127.0.0.1',
-        'PORT': '8000',
+        'PORT': '5432',
 
     }
 }
